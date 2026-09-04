@@ -167,12 +167,15 @@ This repo is deployment-target-agnostic — `docker-compose.yml` works as-is on 
   on Vercel/Netlify/Cloudflare Pages, or served via the included nginx Dockerfile. Set
   `VITE_API_BASE_URL` to the deployed backend's public URL at build time.
 
-**When you deploy, fill in the actual URLs here:**
-- Backend URL: `TODO`
-- Admin Dashboard URL: `TODO`
-- Salesman App URL: `TODO`
-- GitHub repo: `TODO`
+   **Live deployment:**
+   - Backend URL: https://sales-management-backend-t949.onrender.com (API docs: https://sales-management-backend-t949.onrender.com/docs)
+   - Admin Dashboard URL: https://salesmanagement-system.vercel.app
+   - Salesman App URL: https://salesmanagement-system-bwed.vercel.app
+   - GitHub repo: https://github.com/Alfrin05062005/Salesmanagement-system
 
+   **Note:** the backend runs on Render's free tier, which spins down after periods of
+   inactivity. The first request after idle time may take 30-60 seconds to respond while it
+   wakes back up — this is expected behavior, not an error.
 ---
 
 ## 4. Testing
